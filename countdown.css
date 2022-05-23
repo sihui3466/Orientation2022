@@ -3,6 +3,13 @@ html, body{
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
+
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
+
  /*countdown section*/
 .countdown-section{
     justify-content: center;
