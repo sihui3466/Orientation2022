@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orientation 2022 | Multiverse Mystery</title>
+    <link rel="stylesheet" type="text/css" href="./countdown.css">
+    <link rel="stylesheet" type="text/css" href="./popup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--font awesome 4 icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <img id="sutd-logo" src="./sutd_logo.svg" width="100px">
+
+    <div class="container">
+        <div class="blanks" id="countdown-section"></div>
+        <section data-aos="zoom-in" data-aos-duration="2000" class="countdown-section">
+            <img class="responsive" src="House Logos/onyx multiverse logo 2.png" alt="house logo" width="200px"/>
+            <img class="responsive-title" src="assets/Multiverse_logo.png" alt="logo"  width="600px"/>
+            <h2>8 - 10 September 2022</h2>
+            <!-- <div class="scroll-up">Up</div> -->
+            <div class="countdown-content">
+                <div class="text">
+                    <h1 class="days"></h1>
+                    <h4>Days</h4>
+                </div>
+                <div class="text">
+                    <h1 class="hours"></h1>
+                    <h4>Hours</h4>
+                </div>
+                <div class="text">
+                    <h1 class="minutes"></h1>
+                    <h4>Minutes</h4>
+                </div>
+                <div class="text">
+                    <h1 class="seconds"></h1>
+                    <h4>Seconds</h4>
+                </div>
+            </div>
+            <!--<img class="footstep-logo" src="footsteps.png" height="50" width="50"/> -->
+            <div class="animate-box">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- countdown javascript -->
+    <script src="countdown.js"></script>
+    <script src="popup.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <script> 
+        AOS.init();
+    </script>
+</body>
