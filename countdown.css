@@ -503,7 +503,7 @@ footer {
         align-items: center;
         display: flex;
         flex-direction: column;
-        padding-top:120px;
+        padding-top:110px;
     }
     .responsive{
         max-width: 70%!important;
