@@ -497,3 +497,14 @@ footer {
     nav ul#menu {display: none;}
     nav img#hamburg-menu {display: inline-block;}
 }
+
+@media screen and (min-width: 1280px) {
+    .countdown-section{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding-top:80px;
+    }
+}
+}
