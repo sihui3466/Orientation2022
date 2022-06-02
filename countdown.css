@@ -506,5 +506,14 @@ footer {
         flex-direction: column;
         padding-top:120px;
     }
+    .responsive{
+        max-width: 50%!important;
+        height:auto;
+    }
+
+    .responsive-title{
+        width:80%!important;
+        height:80%!important;
+    }
 }
 }
