@@ -507,7 +507,7 @@ footer {
         padding-top:120px;
     }
     .responsive{
-        max-width: 50%!important;
+        max-width: 60%!important;
         height:auto;
     }
 
@@ -515,5 +515,16 @@ footer {
         width:80%!important;
         height:80%!important;
     }
-}
+    h1{
+        font-size:35px!important;
+    }
+    h2{
+        font-size:32px!important;
+    }
+    h3{
+        font-size:30px!important;
+    }
+    h4{
+        font-size:25px!important;
+    }
 }
