@@ -11,7 +11,7 @@ html, body{
 
 .responsive-title{
     width:55%;
-    height:55%;
+    height:auto;
 }
 
  /*countdown section*/
@@ -505,14 +505,11 @@ footer {
         flex-direction: column;
         padding-top:110px;
     }
-    .responsive{
-        max-width: 60%!important;
-        height:auto;
-    }
+    
 
     .responsive-title{
         width:80%!important;
-        height:80%!important;
+        height:auto;
     }
     h1{
         font-size:45px!important;
