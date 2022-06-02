@@ -317,8 +317,7 @@ footer {
         animation: animate 3s infinite;
     }
     .responsive{
-        width:70%!important;
-        height:70%;
+        max-width:40%!important;
     }
     .responsive-title{
         width:100%;
